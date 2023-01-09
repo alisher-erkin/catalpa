@@ -220,7 +220,8 @@ p {
   border: 1px solid #EBEBEB;
   border-radius: 100px;
   margin: 0 auto;
-  background-color: #FFFF; }
+  background-color: #FFFF;
+  margin-bottom: -60px; }
   .home_block8 .home_block8-contact .home_fix-block .col-sm-4 {
     padding: 0;
     padding-left: 20px;
@@ -233,9 +234,6 @@ p {
       padding-left: 20px; }
       .home_block8 .home_block8-contact .home_fix-block .col-sm-4 .home_block8-phone .home_block8-p {
         margin-bottom: 0px; }
-
-.home_block8 .home_block8-contact .map-container {
-  margin-top: -60px; }
 
 .footer {
   position: relative;
@@ -290,6 +288,75 @@ p {
   .footer .footer_block-points {
     margin-left: -70px; }
 
+.section-about {
+  position: relative; }
+  .section-about .about-section-bg {
+    position: absolute;
+    right: 0;
+    max-height: 850px; }
+  .section-about .aboutpage .about_block1-left .page-title {
+    margin-top: 226px;
+    margin-bottom: 60px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 71px;
+    letter-spacing: -1.7px;
+    color: #000;
+    max-width: 600px; }
+  .section-about .aboutpage .about_arow {
+    margin-left: 10px;
+    margin-top: 40px; }
+    .section-about .aboutpage .about_arow .arow_text {
+      color: #8C8C8C; }
+
+.section-about .section-text {
+  margin-top: 30px; }
+  .section-about .section-text .section-about-lng-item {
+    display: inline-block;
+    margin-right: 27px; }
+
+.container-two .section-parag {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 40px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 60px; }
+
+.section-adult1 .section-parag {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 40px;
+  padding-right: 40px; }
+
+.section-img-right .section-parag {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 40px; }
+
+.section-adult .section-parag {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 40px; }
+
+.section-text .section-parag {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 40px;
+  padding-right: 40px; }
+
 @media (max-width: 576px) {
   .container_nav .col-sm-4 {
     display: none; }
@@ -319,3 +386,6 @@ p {
 .section-features .section-features-item {
   margin: 0 auto;
   margin-bottom: 20px; }
+
+.home_block8 .home_block8-contact .home_fix-block {
+  width: auto; }
