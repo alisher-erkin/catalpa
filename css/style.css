@@ -349,13 +349,61 @@ p {
   font-size: 25px;
   line-height: 40px; }
 
-.section-text .section-parag {
-  font-family: 'Roboto';
+.section-test .test_item1, .section-test .test_item2, .section-test .test_item3 {
+  border: 1px solid black;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  display: inline-block; }
+
+.container-contact .contact-text {
+  font-family: 'Rubik';
   font-style: normal;
-  font-weight: 400;
-  font-size: 25px;
-  line-height: 40px;
-  padding-right: 40px; }
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 71px;
+  margin-bottom: 50px; }
+
+.container-contact .phone_block .contact_phone-img {
+  margin-bottom: 20px; }
+
+.container-contact .phone_block .contact_block-phone {
+  display: inline-block;
+  max-width: auto;
+  margin-left: 30px;
+  padding-top: 20px; }
+  .container-contact .phone_block .contact_block-phone .contact_block-p {
+    margin-bottom: 0px; }
+    .container-contact .phone_block .contact_block-phone .contact_block-p .span_text {
+      color: #024547; }
+
+.container-contact .fax_block .contact_fax-img {
+  margin-bottom: 20px; }
+
+.container-contact .fax_block .contact_block-fax {
+  display: inline-block;
+  max-width: auto;
+  margin-left: 30px;
+  padding-top: 20px; }
+  .container-contact .fax_block .contact_block-fax .contact_block-p {
+    margin-bottom: 0px; }
+    .container-contact .fax_block .contact_block-fax .contact_block-p .span_text {
+      color: #024547; }
+
+.container-contact .adress_block .contact_adress-img {
+  margin-bottom: 20px; }
+
+.container-contact .adress_block .contact_block-adress {
+  display: inline-block;
+  max-width: auto;
+  margin-left: 30px;
+  padding-top: 20px; }
+  .container-contact .adress_block .contact_block-adress .contact_block-p {
+    margin-bottom: 0px; }
+    .container-contact .adress_block .contact_block-adress .contact_block-p .span_text {
+      color: #024547; }
 
 @media (max-width: 576px) {
   .container_nav .col-sm-4 {

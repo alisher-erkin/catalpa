@@ -494,16 +494,88 @@ body {
     line-height: 40px;
   }
 }
-.section-text {
-  .section-parag {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 40px;  
-    padding-right: 40px;
+//testimonials
+
+.section-test {
+    .test_item1, .test_item2, .test_item3 {
+      border: 1px solid black;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      padding-left: 20px;
+      padding-top: 20px;
+      padding-right: 20px;
+      display: inline-block;
+    }
   }
-}
+
+  //container-contact
+
+  .container-contact {
+    .contact-text {
+      font-family: 'Rubik';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 50px;
+      line-height: 71px;
+      margin-bottom: 50px;
+    }
+    .phone_block {
+      .contact_phone-img {
+        margin-bottom: 20px;
+      }
+      .contact_block-phone {
+        display: inline-block;
+        max-width: auto;
+        margin-left: 30px;
+        padding-top: 20px;
+        .contact_block-p {
+          margin-bottom: 0px;
+          .span_text {
+            color: #024547;
+          }
+        }
+      }
+    }
+    .fax_block {
+      .contact_fax-img {
+        margin-bottom: 20px;
+      }
+      .contact_block-fax {
+        display: inline-block;
+        max-width: auto;
+        margin-left: 30px;
+        padding-top: 20px;
+        .contact_block-p {
+          margin-bottom: 0px;
+          .span_text {
+            color: #024547;
+          }
+        }
+      }
+    }
+    .adress_block {
+      .contact_adress-img {
+        margin-bottom: 20px;
+      }
+      .contact_block-adress {
+        display: inline-block;
+        max-width: auto;
+        margin-left: 30px;
+        padding-top: 20px;
+        .contact_block-p {
+          margin-bottom: 0px;
+          .span_text {
+            color: #024547;
+          }
+        }
+      }
+
+    }
+  }
+  
+
+
+
 
 
 
