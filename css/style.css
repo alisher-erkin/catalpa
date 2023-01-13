@@ -311,6 +311,15 @@ p {
     .section-about .aboutpage .about_arow .arow_text {
       color: #8C8C8C; }
 
+.section-about1 .section-parag {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 40px;
+  margin-left: 40px;
+  margin-top: 100px; }
+
 .section-about .section-text {
   margin-top: 30px; }
   .section-about .section-text .section-about-lng-item {
@@ -406,10 +415,14 @@ p {
       color: #024547; }
 
 @media (max-width: 576px) {
-  .container_nav .col-sm-4 {
-    display: none; }
-  .container_nav .col-sm-8 .navbar .show .nav-item .home-icon {
-    display: none; }
+  .container_nav {
+    background: #FFFF; }
+    .container_nav .col-sm-4 {
+      display: none; }
+    .container_nav .col-sm-8 .navbar {
+      background-color: #FFFF; }
+      .container_nav .col-sm-8 .navbar .show .nav-item .home-icon {
+        display: none; }
   .section-top .top-section-bg {
     position: absolute; }
   .section-top .homepage {
@@ -437,3 +450,10 @@ p {
 
 .home_block8 .home_block8-contact .home_fix-block {
   width: auto; }
+
+.section-about .aboutpage {
+  padding-top: 50px; }
+
+.section-about1 .col-sm-7 .section-parag {
+  margin-left: 10px;
+  margin-top: 20px; }
