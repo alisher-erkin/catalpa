@@ -151,6 +151,9 @@ body {
   max-height: 850px;
 }
 
+.section-middle {
+
+}
 
 
 
@@ -432,8 +435,16 @@ body {
   }
 }
 
-.section-container {
-  
+.section-about1 {
+  .section-parag {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+    margin-left: 40px;
+    margin-top: 100px;
+  }
 }
 
 
@@ -583,11 +594,13 @@ body {
 
 @media (max-width: 576px) {
   .container_nav {
+    background: #FFFF;
     .col-sm-4 {
      display: none;
     }
     .col-sm-8 {
       .navbar {
+        background-color: #FFFF;
         .show {
           .nav-item {
             .home-icon {
@@ -669,4 +682,17 @@ body {
 
 
 // About.html
+.section-about {
+  .aboutpage {
+    padding-top: 50px;
+  }
+}
 
+.section-about1 {
+  .col-sm-7 {
+    .section-parag {
+      margin-left: 10px;
+      margin-top: 20px;
+    }
+  }
+}
