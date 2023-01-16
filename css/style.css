@@ -73,6 +73,9 @@ p {
       .container_nav .navbar .navbar-brand img .nav-link.home-icon {
         padding-top: 0; }
 
+.container_nav .navbar .nav-item {
+  margin-right: 10px; }
+
 .page-title {
   margin-bottom: 20px;
   margin-top: 265px;
@@ -120,7 +123,7 @@ p {
   font-weight: 600;
   font-size: 50px;
   line-height: 65px;
-  margin-top: 5s0px; }
+  margin-top: 50px; }
 
 .section-parag {
   line-height: 30px;
@@ -187,7 +190,8 @@ p {
   margin-bottom: 20px; }
 
 .section-testimonials .section-text {
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+  padding-left: 50px; }
 
 .section-testimonials .owl-carousel .owl-item.active.center .owl_1-item {
   box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.03), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0227778), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0182222), 0px 20px 13px rgba(0, 0, 0, 0.015), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.0117778), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00722222), 3px 44px 54px rgba(0, 0, 0, 0.08); }
@@ -200,6 +204,9 @@ p {
 
 .owl-carousel .owl-dots {
   padding-top: 50px; }
+
+.owl-carousel .owl-stage-outer {
+  margin-left: 65px; }
 
 .section-features .section-title {
   margin-bottom: 60px; }
@@ -415,14 +422,10 @@ p {
       color: #024547; }
 
 @media (max-width: 576px) {
-  .container_nav {
-    background: #FFFF; }
-    .container_nav .col-sm-4 {
-      display: none; }
-    .container_nav .col-sm-8 .navbar {
-      background-color: #FFFF; }
-      .container_nav .col-sm-8 .navbar .show .nav-item .home-icon {
-        display: none; }
+  .container_nav .col-sm-4 {
+    display: none; }
+  .container_nav .col-sm-8 .navbar .show .nav-item .home-icon {
+    display: none; }
   .section-top .top-section-bg {
     position: absolute; }
   .section-top .homepage {
@@ -453,6 +456,9 @@ p {
 
 .footer .footer_block .address-shift {
   padding-left: 0px; }
+
+.owl-carousel .owl-stage-outer {
+  margin-left: 20px; }
 
 .section-about .aboutpage {
   padding-top: 50px; }

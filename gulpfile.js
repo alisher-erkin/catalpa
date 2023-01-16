@@ -12,4 +12,4 @@ gulp.task('sass', async function(){
 gulp.task('watch', function(){
   return gulp.watch('scss/*.scss', gulp.series(['sass'])); 
   // Other watchers
-})
+});
