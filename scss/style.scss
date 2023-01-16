@@ -104,6 +104,10 @@ body {
   }
 }
 
+.section-about {
+
+}
+
 //Page top section
 
 .page-title {
@@ -150,6 +154,15 @@ body {
     .home_block1-points {
         margin-top: 30px;
     }  
+}
+
+.section-img-left {
+  .col-sm-5 {
+
+  }
+  .col-sm-7 {
+    padding-left: 50px;
+  }
 }
 
 .top-section-bg {
@@ -207,7 +220,7 @@ body {
 //Testimonials carousel styles
 
 .section-feat-carousel {
-    
+    margin-top: 0px;
     .section-title {
       margin-bottom: 20px;
     }
@@ -261,7 +274,7 @@ body {
   }
   .section-text {
     margin-bottom: 40px;
-    padding-left: 50px;
+    padding-left: 550px;
   }
   .owl-carousel .owl-item.active.center .owl_1-item {
     box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.03), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0227778), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0182222), 0px 20px 13px rgba(0, 0, 0, 0.015), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.0117778), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00722222), 3px 44px 54px rgba(0, 0, 0, 0.08);
@@ -414,6 +427,7 @@ body {
     position: absolute;
     right: 0;
     max-height: 850px;
+    border-radius: 0 0 0 100px;
   }
   .aboutpage {
     .about_block1-left {
@@ -637,6 +651,11 @@ body {
       }
     }
   }
+  .section-img-left {
+    .col-sm-7 {
+      padding-left: 15px;
+    }
+  }
   .section-container {
     .col-sm-5 {
 
@@ -664,6 +683,12 @@ body {
       padding-bottom: 45px;
     }
   } 
+}
+
+.section-testimonials {
+  .section-text {
+    padding-left: 100px;
+  }
 }
 
 .section-features {
