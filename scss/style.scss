@@ -199,6 +199,55 @@ body {
     background-color: #F3F3F3;
     border-radius: 1px 100px;
 }
+.container-dark-bg {
+  .section-text {
+    .section-title {
+      
+    }
+    .section-parag {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 40px;
+    }
+  }
+}
+
+.section-middle {
+  .section-title {
+    margin-bottom: 50px;
+  }
+  .col-sm-7 {
+    .section-parag {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400; 
+      font-size: 25px;
+      line-height: 40px;
+      padding-top: 56px;
+      padding-left: 40px;
+    }
+  }
+}
+
+.section-middle-two {
+  .section-title {
+    margin-bottom: 50px;
+  }
+  .col-sm-7 {
+    .section-parag {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 40px;
+      text-align: right;
+      padding-right: 40px;
+      padding-top: 30px;
+    }
+  }
+}
 
 .container-img-bg {
     background-image: url("../img/foto_home7.png");
@@ -474,7 +523,16 @@ body {
     font-size: 25px;
     line-height: 40px;
     margin-left: 40px;
-    margin-top: 100px;
+    margin-top: 200px;
+  }
+}
+
+.section-about1 {
+  .col-sm-7 {
+    .section-parag {
+      padding-top: 60px;
+      padding-left: 46px;
+    }
   }
 }
 
@@ -528,6 +586,16 @@ body {
 }
 
 .section-adult {
+  .section-parag {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+  }
+}
+
+.section-text {
   .section-parag {
     font-family: 'Roboto';
     font-style: normal;
@@ -615,6 +683,12 @@ body {
 
     }
   }
+
+  .container-contact {
+    .col-sm-6 {
+      margin-bottom: 50px;
+    }
+  }
   
 
 
@@ -694,6 +768,14 @@ body {
     }
   } 
 }
+.section-middle {
+  .col-sm-7 {
+    .section-parag {
+      padding-top: 10px;
+      padding-left: 10px;
+    }
+  }
+}
 
 .section-test {
     .test_item1, .test_item2, .test_item3 {
@@ -720,11 +802,14 @@ body {
     }
 }
 
+.container-img-bg {
+  padding-bottom: 30px;
+}
+
 .home_block8 {
   .home_block8-contact  {
     .home_fix-block {
-      width: auto;
-
+     flex-wrap: wrap;
     }
   }
 }
@@ -760,6 +845,7 @@ body {
     .section-parag {
       margin-left: 10px;
       margin-top: 20px;
+      padding-left: 10px;
     }
   }
 }
