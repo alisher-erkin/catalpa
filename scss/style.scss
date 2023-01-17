@@ -457,6 +457,15 @@ body {
   }
 }
 
+.section-test {
+  h2.test {
+    margin-bottom: 20px;
+  }
+  p.test {
+    margin-bottom: 30px;
+  }
+}
+
 .section-about1 {
   .section-parag {
     font-family: 'Roboto';
@@ -530,8 +539,9 @@ body {
 //testimonials
 
 .section-test {
-    .test_item1, .test_item2, .test_item3 {
-      border: 1px solid black;
+    .test_item1,.test_item2,.test_item3 {
+      border: 2px solid #EBEBEB;
+      border-radius: 15px;
       margin-right: 20px;
       margin-bottom: 20px;
       padding-left: 20px;
@@ -685,6 +695,12 @@ body {
   } 
 }
 
+.section-test {
+    .test_item1, .test_item2, .test_item3 {
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+  }
 .section-testimonials {
   .section-text {
     padding-left: 100px;
@@ -730,8 +746,14 @@ body {
 .section-about {
   .aboutpage {
     padding-top: 50px;
+    .about_block1-left {
+      .page-title {
+        font-size: 56px;
+      }
+    }
   }
 }
+
 
 .section-about1 {
   .col-sm-7 {

@@ -321,6 +321,12 @@ p {
     .section-about .aboutpage .about_arow .arow_text {
       color: #8C8C8C; }
 
+.section-test h2.test {
+  margin-bottom: 20px; }
+
+.section-test p.test {
+  margin-bottom: 30px; }
+
 .section-about1 .section-parag {
   font-family: 'Roboto';
   font-style: normal;
@@ -369,7 +375,8 @@ p {
   line-height: 40px; }
 
 .section-test .test_item1, .section-test .test_item2, .section-test .test_item3 {
-  border: 1px solid black;
+  border: 2px solid #EBEBEB;
+  border-radius: 15px;
   margin-right: 20px;
   margin-bottom: 20px;
   padding-left: 20px;
@@ -452,6 +459,10 @@ p {
   .container-dark-bg .section-img {
     padding-bottom: 45px; } }
 
+.section-test .test_item1, .section-test .test_item2, .section-test .test_item3 {
+  margin-right: 10px;
+  margin-left: 10px; }
+
 .section-testimonials .section-text {
   padding-left: 100px; }
 
@@ -470,6 +481,8 @@ p {
 
 .section-about .aboutpage {
   padding-top: 50px; }
+  .section-about .aboutpage .about_block1-left .page-title {
+    font-size: 56px; }
 
 .section-about1 .col-sm-7 .section-parag {
   margin-left: 10px;
