@@ -482,6 +482,8 @@ p {
     display: none; }
   .container_nav .col-sm-8 .navbar .show .nav-item .home-icon {
     display: none; }
+  .container_nav .navbar .navbar-brand img {
+    display: flex; }
   .section-top .top-section-bg {
     position: absolute; }
   .section-top .homepage {
