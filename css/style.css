@@ -513,7 +513,8 @@ p {
   .container-dark-bg .section-img {
     padding-bottom: 45px; }
   .home_block8 .home_block8-contact .home_fix-block {
-    margin-bottom: 60px; }
+    margin-bottom: 60px;
+    border-radius: 0px; }
     .home_block8 .home_block8-contact .home_fix-block .map-container {
       width: auto; }
   .section-middle .col-sm-7 .section-parag {
