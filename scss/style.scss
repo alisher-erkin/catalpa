@@ -307,7 +307,6 @@ body {
 .test_item1-text {
   display: inline-block;
   padding-right: 120px;
-
 }
 .test_item1-icon {
     display: inline-block;
@@ -399,7 +398,8 @@ body {
 }
 
 .footer {
- position: relative;
+  position: relative;
+  padding-top: 50px;
   .footer-img-bg {
     position: absolute;
     left: 0;
@@ -526,14 +526,14 @@ body {
     font-size: 25px;
     line-height: 40px;
     margin-left: 40px;
-    margin-top: 200px;
+    margin-top: 80px;
   }
 }
 
 .section-about1 {
   .col-sm-7 {
     .section-parag {
-      padding-top: 60px;
+      padding-top: 10px;
       padding-left: 46px;
     }
   }
@@ -761,6 +761,14 @@ body {
      } 
     }
   }
+  .section-about1 {
+    .col-sm-7 {
+      .section-parag {
+        padding-left: 10px;
+        margin-left: 10px;
+      }
+    }
+  }
   .container-dark-bg { 
     .section-text {
      padding-left: 20px;
@@ -773,7 +781,16 @@ body {
       padding-bottom: 45px;
     }
   } 
-}
+  .home_block8 {
+  .home_block8-contact  {
+    .home_fix-block {
+      margin-bottom: 60px;
+     .map-container {
+      width: auto;
+     }
+    }
+  }
+ }
 .section-middle {
   .col-sm-7 {
     .section-parag {
@@ -781,9 +798,8 @@ body {
       padding-left: 10px;
     }
   }
-}
-
-.section-test {
+ }
+ .section-test {
     .test_item1, .test_item2, .test_item3 {
       margin-right: 10px;
       margin-left: 10px;
@@ -791,71 +807,25 @@ body {
   }
 .section-testimonials {
   .section-text {
-    padding-left: 100px;
+    padding-left: 20px;
   }
-}
-
-.section-features {
-    .section-title {
-      
-    }
-    .section-features-item {
-      margin: 0 auto;
-      margin-bottom: 20px;
-        .section-features-item-text {
-         
-        }
-    }
-}
-
-.container-img-bg {
-  padding-bottom: 30px;
-}
-
-.home_block8 {
-  .home_block8-contact  {
-    .home_fix-block {
-      .row {
-        .col-sm-4 {
-         
-        }
-      }
+  .owl-drag {
+    .owl-stage-outer {
+      margin-left: 0px;
     }
   }
 }
-
-.footer {
-  .footer_block { 
-    .address-shift {
-      padding-left: 0px;
-    }
-    }
+.section-feat-carousel {
+  .owl-stage-outer {
+    margin-left: 30px;
   }
-  .owl-carousel .owl-stage-outer {
-  margin-left: 20px;
+}
+.test_item1-text {
+  display: inline-block;
+  padding-right: 100px;
+}
 }
 
 
 
-// About.html
-.section-about {
-  .aboutpage {
-    padding-top: 50px;
-    .about_block1-left {
-      .page-title {
-        font-size: 56px;
-      }
-    }
-  }
-}
 
-
-.section-about1 {
-  .col-sm-7 {
-    .section-parag {
-      margin-left: 10px;
-      margin-top: 20px;
-      padding-left: 10px;
-    }
-  }
-}

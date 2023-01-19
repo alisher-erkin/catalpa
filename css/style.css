@@ -280,6 +280,7 @@ p {
 
 .footer {
   position: relative;
+  padding-top: 50px;
   margin-bottom: 20px; }
   .footer .footer-img-bg {
     position: absolute;
@@ -368,10 +369,10 @@ p {
   font-size: 25px;
   line-height: 40px;
   margin-left: 40px;
-  margin-top: 200px; }
+  margin-top: 80px; }
 
 .section-about1 .col-sm-7 .section-parag {
-  padding-top: 60px;
+  padding-top: 10px;
   padding-left: 46px; }
 
 .section-about .section-text {
@@ -501,44 +502,32 @@ p {
     margin-top: 30px; }
     .section-container .col-sm-7 .section-title br {
       display: none; }
+  .section-about1 .col-sm-7 .section-parag {
+    padding-left: 10px;
+    margin-left: 10px; }
   .container-dark-bg .section-text {
     padding-left: 20px; }
     .container-dark-bg .section-text .section-title {
       font-size: 34px;
       line-height: 1.3; }
   .container-dark-bg .section-img {
-    padding-bottom: 45px; } }
-
-.section-middle .col-sm-7 .section-parag {
-  padding-top: 10px;
-  padding-left: 10px; }
-
-.section-test .test_item1, .section-test .test_item2, .section-test .test_item3 {
-  margin-right: 10px;
-  margin-left: 10px; }
-
-.section-testimonials .section-text {
-  padding-left: 100px; }
-
-.section-features .section-features-item {
-  margin: 0 auto;
-  margin-bottom: 20px; }
-
-.container-img-bg {
-  padding-bottom: 30px; }
-
-.footer .footer_block .address-shift {
-  padding-left: 0px; }
-
-.owl-carousel .owl-stage-outer {
-  margin-left: 20px; }
-
-.section-about .aboutpage {
-  padding-top: 50px; }
-  .section-about .aboutpage .about_block1-left .page-title {
-    font-size: 56px; }
-
-.section-about1 .col-sm-7 .section-parag {
-  margin-left: 10px;
-  margin-top: 20px;
-  padding-left: 10px; }
+    padding-bottom: 45px; }
+  .home_block8 .home_block8-contact .home_fix-block {
+    margin-bottom: 60px; }
+    .home_block8 .home_block8-contact .home_fix-block .map-container {
+      width: auto; }
+  .section-middle .col-sm-7 .section-parag {
+    padding-top: 10px;
+    padding-left: 10px; }
+  .section-test .test_item1, .section-test .test_item2, .section-test .test_item3 {
+    margin-right: 10px;
+    margin-left: 10px; }
+  .section-testimonials .section-text {
+    padding-left: 20px; }
+  .section-testimonials .owl-drag .owl-stage-outer {
+    margin-left: 0px; }
+  .section-feat-carousel .owl-stage-outer {
+    margin-left: 30px; }
+  .test_item1-text {
+    display: inline-block;
+    padding-right: 100px; } }
