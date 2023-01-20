@@ -260,7 +260,7 @@ p {
     font-size: 23px; }
 
 .home_block8 .home_block8-contact .home_fix-block {
-  border: 1px solid #EBEBEB;
+  border: 2px solid #EBEBEB;
   border-radius: 100px;
   margin: 0 auto;
   background-color: #FFFF;
@@ -526,7 +526,7 @@ p {
     padding-bottom: 45px; }
   .home_block8 .home_block8-contact .home_fix-block {
     margin-bottom: 60px;
-    border-radius: 0px; }
+    border-radius: 10px; }
     .home_block8 .home_block8-contact .home_fix-block .map-container {
       width: auto; }
   .section-middle .col-sm-7 .section-parag {
