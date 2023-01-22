@@ -158,6 +158,14 @@ body {
   }
   .col-sm-7 {
     padding-left: 50px;
+    .left_text-p {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+      color: #000000;
+    }
   }
 }
 
@@ -206,6 +214,15 @@ body {
       font-weight: 400;
       font-size: 30px;
       line-height: 40px;
+    }
+    .section-text-p {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 40px;
+      color: #000000;
+
     }
   }
 }
@@ -341,7 +358,7 @@ body {
     padding-top: 50px;
 }
 .owl-carousel .owl-stage-outer {
-  margin-left: 65px;
+  margin-left: 50px;
 }
 
 

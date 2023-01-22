@@ -114,6 +114,13 @@ p {
 
 .section-img-left .col-sm-7 {
   padding-left: 50px; }
+  .section-img-left .col-sm-7 .left_text-p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000; }
 
 .top-section-bg {
   position: absolute;
@@ -143,6 +150,14 @@ p {
   font-weight: 400;
   font-size: 30px;
   line-height: 40px; }
+
+.container-dark-bg .section-text .section-text-p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  color: #000000; }
 
 .section-middle .section-title {
   margin-bottom: 50px; }
@@ -242,7 +257,7 @@ p {
   padding-top: 50px; }
 
 .owl-carousel .owl-stage-outer {
-  margin-left: 65px; }
+  margin-left: 50px; }
 
 .section-features .section-title {
   margin-bottom: 60px; }
