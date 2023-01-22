@@ -295,6 +295,12 @@ p {
     font-weight: 600;
     font-size: 16px;
     line-height: 28px; }
+  .footer .footer_block1 .logo_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px; }
   .footer .footer_block .footer_block-text {
     font-size: 14px;
     font-weight: 400;
