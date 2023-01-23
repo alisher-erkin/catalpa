@@ -149,14 +149,15 @@ p {
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
-  line-height: 40px; }
+  line-height: 40px;
+  color: #000000; }
 
 .container-dark-bg .section-text .section-text-p {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  line-height: 40px;
+  line-height: 30px;
   color: #000000; }
 
 .section-middle .section-title {
@@ -187,6 +188,13 @@ p {
 .container-img-bg {
   background-image: url("../img/foto_home7.png");
   background-repeat: no-repeat; }
+  .container-img-bg .col-sm-12 .img-bg_p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000; }
 
 .section-container {
   margin-top: 80px;
@@ -242,7 +250,8 @@ p {
   margin-bottom: 40px; }
 
 .section-testimonials .owl-carousel .owl-item.active.center .owl_1-item {
-  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.03), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0227778), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0182222), 0px 20px 13px rgba(0, 0, 0, 0.015), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.0117778), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00722222), 3px 44px 54px rgba(0, 0, 0, 0.08); }
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.03), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0227778), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0182222), 0px 20px 13px rgba(0, 0, 0, 0.015), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.0117778), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00722222), 3px 44px 54px rgba(0, 0, 0, 0.08);
+  margin-bottom: 30px; }
 
 .section-testimonials .col-sm-12 .section-text {
   text-align: center; }
@@ -427,7 +436,7 @@ p {
   font-size: 25px;
   line-height: 40px; }
 
-.section-adult .section-parag {
+.section-adult .col-sm-12 .section-parag {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -440,6 +449,14 @@ p {
   font-weight: 400;
   font-size: 25px;
   line-height: 40px; }
+
+.section-adult1 .col-sm-12 .section-parag {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 40px;
+  color: #000000; }
 
 .section-test .test_item1, .section-test .test_item2, .section-test .test_item3 {
   border: 2px solid #EBEBEB;
@@ -561,7 +578,7 @@ p {
   .section-testimonials .owl-drag .owl-stage-outer {
     margin-left: 0px; }
   .section-features .section-features-item {
-    margin-left: 35px;
+    margin-left: 25px;
     margin-bottom: 20px; }
   .container-img-bg .section-text .home_block7-buttons {
     padding-bottom: 30px; }
