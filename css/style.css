@@ -295,6 +295,9 @@ p {
     font-weight: 600;
     font-size: 23px; }
 
+.section-features .col-sm-3 {
+  padding-left: 0px; }
+
 .home_block8 .home_block8-contact .home_fix-block {
   border: 2px solid #EBEBEB;
   border-radius: 100px;
@@ -592,6 +595,8 @@ p {
   .section-features .section-features-item {
     margin-left: 25px;
     margin-bottom: 20px; }
+  .section-features .col-sm-3 {
+    padding-left: 15px; }
   .container-img-bg .section-text .home_block7-buttons {
     padding-bottom: 30px; }
   .section-feat-carousel {
