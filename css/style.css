@@ -533,6 +533,12 @@ p {
 .container-contact .col-sm-6 {
   margin-bottom: 50px; }
 
+.footer .last-block {
+  padding-left: 50px; }
+
+.footer .last-pre-block {
+  padding-left: 30px; }
+
 @media (max-width: 576px) {
   .container_nav .col-sm-4 {
     display: none; }
@@ -616,4 +622,10 @@ p {
     padding-left: 0px; }
   .section-testimonials .col-sm-12 .section-text {
     text-align: center;
-    margin-right: 0px; } }
+    margin-right: 0px; }
+  .footer .invisible_block {
+    display: none; }
+  .footer .last-block {
+    padding-left: 15px; }
+  .footer .last-pre-block {
+    padding-left: 15px; } }

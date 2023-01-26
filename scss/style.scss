@@ -767,6 +767,16 @@ body {
       margin-bottom: 50px;
     }
   }
+  .footer {
+    .last-block {
+      padding-left: 50px;
+    }
+  }
+  .footer {
+    .last-pre-block {
+      padding-left: 30px;
+    }
+  }
  
   
   
@@ -989,6 +999,19 @@ body {
     }
   }
 }
+.footer {
+  .invisible_block {
+    display: none;
+  }
+}
+ .footer {
+    .last-block {
+      padding-left: 15px;
+    }
+    .last-pre-block {
+      padding-left: 15px;
+    }
+  }
 }
 
 
